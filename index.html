@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Page</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/c5f3b0fc79.js" crossorigin="anonymous"></script></head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c5f3b0fc79.js" crossorigin="anonymous"></script>
+<body>
+    <header>
+        <div class="container">
+            <div class="header_container">
+                <nav class="header_menu_container">
+                    <img src="images/icon-menu.svg" alt="" class="menu_hamburguer">
+                    <img src="images/logo.svg" class="logo" alt="Sneakers Logo" title="Sneakers Logo">
+                    <a href="#" class="header__navItems">Collections</a>
+                    <a href="#" class="header__navItems">Men</a>
+                    <a href="#" class="header__navItems">Women</a>
+                    <a href="#" class="header__navItems">About</a>
+                    <a href="#" class="header__navItems">Contact</a>
+                </nav>
+                <div class="header_profile_container">
+                    <div class="shopping_cart_container">
+                        <p class="notification">0</p>
+                        <i class="fa-solid fa-cart-shopping cart"></i>
+                    </div>
+                    <img src="images/image-avatar.png" alt="" class="profile">
+                </div>
+            </div>
+            <div class="cart_products cart--show">
+                <h3 class="cart_title">Cart</h3>
+                <div class="product_checkout_container">
+                    <div class="product_container">
+                        <div class="product_image">
+                            <img src="images/image-product-1-thumbnail.jpg" alt="">
+                        </div>
+                        <div class="product_description">
+                            <div class="product_name">
+                                <p class="product">Fall Limited Edition Sneakers</p>
+                            </div>
+                            <div class="product_total">
+                                <p class="shoes_price"></p>
+                                <p class="x_icon">x</p>
+                                <p class="shoes_amount"></p>
+                                <p class="total"></p>
+                            </div>
+                        </div>
+                        <div class="delete_icon_container">
+                            <i class="fa-solid fa-trash-can delete_icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="checkout_btn_container">
+                        <a href="#" class="checkout">Checkout</a>
+                    </div>
+
+                </div>
+
+                <div class="cart_message">
+                    <p class="message">
+                        Your cart is empty
+                    </p>
+                </div>
+            </div>
+        </div>
+        <section class="menu menu_background--show">
+            <div class="menu_container menu_slide--show">
+                <p class="close_menu">X</p>
+                <nav class="menu_items">
+                    <a href="#">Collections</a>
+                    <a href="#">Men</a>
+                    <a href="#">Women</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <div class="shoes_overview">
+            <div class="container">
+                <div class="close_modal">
+                    <button class="close_modal_btn" role="button">X</button>
+                </div>
+                <div class="carousel_container ">
+                    <button class="before" id="before" role="button"><i class="fa-solid fa-angle-left"></i></button>
+        
+                    <div class="carousel" id="carousel">
+                        <div class="image image1">
+                            <img src="images/image-product-1.jpg" alt="">
+                        </div>
+                        <div class="image image2">
+                            <img src="images/image-product-2.jpg" alt="">
+                        </div>
+                        <div class="image image3">
+                            <img src="images/image-product-3.jpg" alt="">
+                        </div>
+                        <div class="image image4">
+                            <img src="images/image-product-4.jpg" alt="">
+                        </div>
+                    </div>
+        
+                    <button class="next" id="next" role="button"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+    
+                <div class="sub_shoes_container">
+                    <div class="sub_shoe sub_image">
+                        <img src="images/image-product-1-thumbnail.jpg" alt="">
+                        <div class="modal_transparent_bg"></div>
+                    </div>
+                    <div class="sub_shoe sub_image">
+                        <img src="images/image-product-2-thumbnail.jpg" alt="">
+                        <div class="modal_transparent_bg"></div>
+                    </div>
+                    <div class="sub_shoe sub_image">
+                        <img src="images/image-product-3-thumbnail.jpg" alt="">
+                        <div class="modal_transparent_bg"></div>
+                    </div>
+                    <div class="sub_shoe sub_image">
+                        <img src="images/image-product-4-thumbnail.jpg" alt="">
+                        <div class="modal_transparent_bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="buy_shoes">
+            <div class="container">
+                <div class="shoes_container">
+                    <figure class="main_shoe_image">
+                        <img src="images/image-product-1.jpg" class="main__shoes" alt="Sneakers">
+                    </figure>
+                    <div class="sub_shoes_container">
+                        <div class="sub_shoe">
+                            <img src="images/image-product-1-thumbnail.jpg" alt="Sneaker Image">
+                            <div class="transparent_bg modal_trigger"></div>
+                        </div>
+                        <div class="sub_shoe">
+                            <img src="images/image-product-2-thumbnail.jpg" alt="Sneaker Image">
+                            <div class="transparent_bg modal_trigger"></div>
+                        </div>
+                        <div class="sub_shoe">
+                            <img src="images/image-product-3-thumbnail.jpg" alt="Sneaker Image">
+                            <div class="transparent_bg modal_trigger"></div>
+                        </div>
+                        <div class="sub_shoe">
+                            <img src="images/image-product-4-thumbnail.jpg" alt="Sneaker Image">
+                            <div class="transparent_bg modal_trigger"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text_container">
+                    <h2 class="subtitle">SNEAKER COMPANY</h2>
+                    <h1 class="title">Fall Limited Edition Sneakers</h1>
+                    <p class="description">  These low-profile sneakers are your perfect    casual wear companion. Featuring a 
+                    durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+                    <div class="price_container">
+                        <div class="up">
+                            <p class="price">$125.00</p>
+                            <p class="percentage">50%</p>
+                        </div>
+                        <div class="down">
+                            <p class="old-price">$250.00</p>
+                        </div>
+                    </div>
+
+                    <div class="buttons_container">
+                        <div class="add_remove_item_container">
+                            <p class="subtract">-</p>
+                            <p class="quantity">0</p>
+                            <p class="add">+</p>
+                        </div>
+                        <div class="add_to_cart_container">
+                            <button class="add_btn">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p class="text">Add to cart</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
